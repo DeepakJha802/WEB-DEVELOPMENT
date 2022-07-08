@@ -1,0 +1,26 @@
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: blue;
+    background-color: chartreuse;
+}
+/* This is web save font which is come pre - installed in operating system in our laptop */
+#basic {
+    font-family: 'Edu TAS Beginner', cursive;
+    color: yellowgreen;
+    background-color: tomato;
+}
+
+/* This is also web save which is we are import to the web*/
+
+#basic {
+    font-size: 45px;
+    line-height: 2em; /* Line height is a basically gap between two lines. and em means hight is just multiple by fonts initial sie*/
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+    
+}

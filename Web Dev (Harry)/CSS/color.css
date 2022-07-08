@@ -1,0 +1,23 @@
+h2 {
+    color:red;
+}
+
+#primary {
+    color: blue;
+    font-size: 20px;
+}
+/* This is called by color by name */
+
+#secondary {
+    color: rgb(203, 116, 3);
+    font-size: 20px;
+}
+/* This is rgb form of color this is good for coloring (color by rgb value)*/
+
+#ternary {
+    color: #0df309d3;
+    font-size: 20px;
+}
+/* This is called hex color which is hexadecimal form (color by hex value) */
+
+/* This color proerty is used to everywhere where we use to color something */

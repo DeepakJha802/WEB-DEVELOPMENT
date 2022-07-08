@@ -1,0 +1,6 @@
+There are four types of css element selectors
+
+1. CSS element Selector
+2. CSS Id Selector
+3. CSS class Selector
+4. The CSS grouping Selector

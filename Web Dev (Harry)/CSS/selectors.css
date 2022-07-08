@@ -1,0 +1,31 @@
+p {
+    color: red;
+    border: 2px solid yellow;
+}
+/* This is element selector */
+#firstpara {
+    color:green;
+    border: 2px solid rgb(83, 81, 81);
+}
+/* This is id selector */
+
+.divpara{
+    color:brown;
+    border: 2px solid green;
+}
+
+.div {
+    color: blue;
+    border: 3px solid rgba(84, 6, 240, 0.806);
+}
+
+.bg {
+    background-color: aqua;
+}
+/* This is class selector */
+
+footer , span {
+    background-color: palevioletred;
+    border: 3px solid blueviolet;
+}
+/* This is called group selector */
