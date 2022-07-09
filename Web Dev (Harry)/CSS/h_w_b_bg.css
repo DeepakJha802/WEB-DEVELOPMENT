@@ -1,0 +1,43 @@
+h2 {
+  color: red;
+}
+
+#basic {
+  color: rgba(5, 5, 185, 0.767);
+  background-color: green;
+  height: 100px;
+  width: 700px;
+  border: 6px solid yellowgreen;
+  /* border-width: 6px;
+    border-color: yellowgreen;
+    border-style: solid; */
+  border-radius: 5px;
+}
+
+#primary {
+  color: rgba(5, 5, 185, 0.767);
+  background-color: green;
+  height: 100px;
+  width: 700px;
+  border-top: 3px solid rgb(33, 1, 163);
+  border-bottom: 3px solid black;
+  border-left: 3px solid mediumvioletred;
+  border-right: 3px solid maroon;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+#secondary {
+  color: aqua;
+  height: 650px;
+  width: 840px;
+  background-image: url("/image/2.jpg");
+  border: 3px solid black;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  /* background-position: center top; */
+  /* background-position: bottom center; */
+  background-position: 150px 45px;
+}

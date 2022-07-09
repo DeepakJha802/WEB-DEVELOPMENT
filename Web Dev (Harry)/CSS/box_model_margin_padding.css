@@ -1,0 +1,38 @@
+* {
+  color: darkred;
+}
+/* This is universal selector this is select all the element does not depent which type of element and change their color according
+to which we give */
+
+body {
+    background-color: rgb(136 237 136);
+}
+
+
+.container {
+  background-color: rgb(237 181 255 / 92%);
+  border: 4px solid brown;
+  /* padding: 39px; */
+  /* we can set margin/padding for top bottom left right like this */
+  /* padding-right: 39px;
+    padding-left: 39px;
+    padding-top: 39px;
+    padding-bottom: 39px; */
+
+  /* padding: 25px 35px 45px 50px; */
+  /* padding = top right bottom left */
+
+  /* padding: y(top/bottom) x(left/right);
+    when we have to set same for top and bottom and left and right*/
+  padding: 34px 45px;
+
+  /* margin = top right bottom left */
+  margin: 10px 8px 14px 22px;
+
+  border-radius: 23px;
+  width: 500px;
+  height: 250px;
+
+  box-sizing: border-box;
+  /* This is now take width which we give don't take the padding and margin width now this is adjust the width itself */
+}
