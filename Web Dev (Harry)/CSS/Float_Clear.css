@@ -1,3 +1,58 @@
-.container {
-    color: red;
+* {
+box-sizing: border-box;
 }
+
+.container {
+    width: 900px;
+    border: 3px solid red;
+    /* margin: auto; // It means the margin is automatic calculate in x  */
+    margin: 35px auto;
+    background-color: violet;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Lobster', cursive;
+}
+
+.item {
+    border: 3px solid green;
+    margin: 10px 5px;
+    padding: 10px 5 px;
+    background: rgb(211, 130, 130);
+}
+
+#fruit {
+    float: left;
+    width: 48%;
+}
+
+#comp {
+    /* float: left; */
+    float: right;
+    width: 48%;
+}
+
+#veg{
+    /* float: left; */
+    width: 100%;
+    /* clear: left; */
+    /* it means any left element are not overlap */
+    clear: both;
+    /* it means any element are not overlap to this element */
+}
+
+p , h2 {
+    /* text-align: right;
+    text-align: left;
+    text-align: center; */
+    text-align: justify;
+}
+
+h1 {
+    margin: 3px;
+    padding: 35px;
+    text-align: center;
+}
+

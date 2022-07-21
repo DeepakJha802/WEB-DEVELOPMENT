@@ -1,0 +1,48 @@
+.contain {
+    color: red;
+    border: 3px solid yellow;
+    background-color: darksalmon;
+    padding: 35px;
+    margin: 35px auto;
+    width: 700px;
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: aqua;
+}
+
+a:visited {
+    color: blueviolet;
+   background-color: magenta;
+}
+
+a:active {
+    background-color: red;
+}
+
+.btn {
+    background-color: rgb(30, 220, 189);
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: rgb(139, 0, 0);
+    background-color: chartreuse;
+    border: 2px solid black;
+}
