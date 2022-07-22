@@ -1,0 +1,23 @@
+h1 {
+    color: chartreuse;
+}
+.navbar {
+    color: red;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 3px 3px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    margin: 5px 5px;
+}
