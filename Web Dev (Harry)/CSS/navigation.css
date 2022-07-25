@@ -1,8 +1,10 @@
 h1 {
     color: chartreuse;
+    text-align: center;
 }
 .navbar {
-    color: red;
+    background-color: aquamarine;
+    border-radius: 4px;
 }
 
 .navbar ul {
@@ -13,11 +15,38 @@ h1 {
     float: left;
     list-style: none;
     padding: 3px 3px;
-    margin: 3px 3px;
+    margin: 10px 8px;
+    font-weight: bold;
 }
 
 .navbar li a {
+    color: blue;
     padding: 3px 3px;
     text-decoration: none;
     margin: 5px 5px;
 }
+
+.navbar li a:hover {
+    color: red;
+}
+
+.navbar li a:active {
+    color: tomato;
+}
+
+
+.search {
+    float: right;
+    padding: 4px;
+    margin-right: 5px;
+}
+
+.navbar input{
+    padding: 3px;
+    margin-right: 5px;
+    margin-top: 4px;
+    border-radius: 7px;
+    border-color: black;
+    width: 135px;
+}
+
