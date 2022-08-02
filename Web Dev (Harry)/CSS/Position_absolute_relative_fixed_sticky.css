@@ -1,0 +1,42 @@
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.container {
+    background-color: aquamarine;
+    border: 3px solid blueviolet;
+    height: 4000px;
+
+}
+.box {
+    display: inline-block;
+    color: red;
+    border: 3px solid green;
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+    text-align: center;
+}
+
+#box3 {
+    /* position: relative; */
+    /* position: absolute; */
+    /* top: 40px;
+    left: 100px; */
+    /* position: static; */
+
+    /* position: fixed;
+    right: 10px;
+    bottom: 10px; */
+
+    position: sticky;
+    top: 10px;
+}
+
+/* There are four types of position */
+/* 1. Static (by defalut)
+   2. Absolute :- Relative to the parent.
+   3. Relative :- Relative to it's normal position and will leave a gap at its normal position.
+   4. Fixed or Sticky
+/* If we do position is relative than we can use the top , bottom , left or right properties. */
