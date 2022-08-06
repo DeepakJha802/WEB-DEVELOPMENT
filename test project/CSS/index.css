@@ -1,8 +1,32 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: black;
-    background: url('/test project/image/fingers.jpg');
-    /* height: 8000px; */
+    background: url('/test project/image/chalkboard-.jpg');
+    height: 1200px;
     width: 100%
+}
+
+.left {
+    display: inline-block;
+    color: red;
+    border: 3px solid yellow;
+    float: left;
+    margin: 20px;
+}
+
+.mid {
+display: inline-block;
+color: green;
+border: 3px solid rgb(35, 222, 197);
+
+
+}
+
+.right {
+display: inline-block;
+color:blue;
+border: 3px solid rgba(4, 116, 34, 0.589);
+float: right;
+margin-top: 20px;
+margin-right: 20px;
 }
