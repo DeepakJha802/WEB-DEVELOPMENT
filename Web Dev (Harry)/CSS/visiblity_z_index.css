@@ -1,0 +1,30 @@
+h1 {
+    color: brown;
+}
+
+.box {
+    height: 170px;
+    width: 170px;
+    border: 2px solid black;
+}
+#box1 {
+    background-color: green;
+    top: 35px;
+    z-index: 400;
+}
+#box2 {
+    z-index: 3000;
+    /* display: none; */
+    /* when we use display "none" the element will hidden and space also*/
+    background-color: red;
+    /* visibility: hidden; */
+    /* When we use the visiblity the element will be hidden. but show empty space*/
+}
+#box3 {
+    background-color: blue;
+}
+#box4 {
+    background-color: yellow;
+}
+
+/* Z -Index will work only for position: relative , absolute , fixed  or sticky  */

@@ -1,32 +1,68 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    background: url('/test project/image/chalkboard-.jpg');
-    height: 1200px;
-    width: 100%
+  margin: 0px;
+  padding: 0px;
+  background: url("/image/1.jpg");
+  background-size: 1705px;
+  height: 2200px;
 }
 
 .left {
-    display: inline-block;
-    color: red;
-    border: 3px solid yellow;
-    float: left;
-    margin: 20px;
+  display: inline-block;
+  /* border: 3px solid yellow; */
+  position: absolute;
+  left: 52px;
+  top: 8px;
+  color: red;
 }
 
+.left div {
+  font-size: 50px;
+  color: rgb(10, 2, 0);
+}
 .mid {
-display: inline-block;
-color: green;
-border: 3px solid rgb(35, 222, 197);
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+  /* border: 3px solid rgb(35, 222, 197); */
+  color: rgb(139, 139, 139);
+  float: right;
+}
+/*
+.right {
+  display: inline-block;
+  border: 3px solid rgba(4, 116, 34, 0.589);
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  color: blue;
+} */
 
-
+.btn {
+  margin: 2px 1px;
+  color: black;
+  background-color: rgb(118 159 77 / 23%);
+  color:#283d2d;
+  font-size: 19px;
+  padding: 0px 20px;
+  cursor: pointer;
 }
 
-.right {
-display: inline-block;
-color:blue;
-border: 3px solid rgba(4, 116, 34, 0.589);
-float: right;
-margin-top: 20px;
-margin-right: 20px;
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 5px;
+}
+.navbar li a {
+  color: rgba(73, 5, 5, 0.755);
+  text-decoration: none;
+  padding-bottom: 15px;
+  padding-left: 48px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  /* color: rgb(73, 73, 225); */
 }
