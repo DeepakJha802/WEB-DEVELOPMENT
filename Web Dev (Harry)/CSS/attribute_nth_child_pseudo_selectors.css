@@ -1,0 +1,61 @@
+h1 {
+    color: black;
+    text-align: center;
+    background-color: yellow;
+}
+
+.container {
+    display: block;
+    width: 235px;
+    margin: auto;
+}
+
+input {
+    display: block;
+}
+
+/* input[type='text'] {
+    padding: 5px;
+    border: 3px solid grey;
+}
+
+input[type='password'] {
+    padding: 5px;
+    border: 3px solid grey;
+}
+
+input[type='submit'] {
+    padding: 5px;
+    border: 3px solid grey;
+} */
+
+a[target] {
+    color:royalblue;
+    font-size: 25px;
+    /* text-decoration: none; */
+
+}
+
+a[target='_self'] {
+    color:rgba(8, 64, 184, 0.993);
+    font-size: 25px;
+    /* text-decoration: none; */
+
+}
+
+li:nth-child(3) {
+    color: blue;
+    text-decoration: underline;
+}
+
+li:nth-child(2n + 0) {
+    color: red;
+}
+
+li:nth-child(odd) {
+    background-color: yellow;
+}
+
+li:nth-child(even) {
+    background-color: violet;
+}
